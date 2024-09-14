@@ -1,3 +1,3 @@
-FROM alamalinux:latest
+FROM almalinux:latest
 
 RUN yum install nginx -y
