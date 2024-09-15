@@ -25,7 +25,7 @@ docker build -t araguntajyothi/arg:v1 --build-arg PY_VERSION=3.9 .
 * But ARG declared after from can be accessed.
 
 ### Using ENV and ARG for best results.
- * Create one env variable and assign the value of ARG to that.
+ * Create one env variable and assign the value of ARG to that env variable.
  * Then we can access ARG values through ENV both in image and container.
 
 
